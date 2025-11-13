@@ -1,0 +1,25 @@
+article{
+width:35%;
+float:right;
+}
+
+aside{
+width:65%;
+float:left;
+}
+
+div{
+text-align:center;
+  padding:30px;
+  font-size:50px;
+  border-radius:100px;
+  background-color:gold;
+  border:10px solid 
+}
+
+.banner img{
+
+width:100%;
+height:auto;
+display:block;
+}

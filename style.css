@@ -1,0 +1,46 @@
+.banner img{
+
+width:100%;
+height:auto;
+display:block;
+}
+
+button {
+text-align:center;
+  padding:10px;
+  font-size:large;
+  background-color:aquamarine;
+  border:5px solid 
+}
+
+aside{
+width:25%;
+float:left;
+}
+
+section{
+width:40%;
+float:left;
+padding:10px;
+}
+
+article{
+width:25%;
+float:left;
+}
+
+div{
+text-align:center;
+  padding:10px;
+  font-size:large;
+  background-color:silver;
+  border:5px solid 
+}
+
+font{
+  text-align:center;
+  padding:10px;
+  font-size:large;
+  background-color:Beige;
+  border:5px solid 
+}
