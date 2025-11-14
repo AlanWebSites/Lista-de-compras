@@ -114,8 +114,88 @@ function Reset(){
   <option value="1">1 kilo</option>
   <option value="1">Kilo y medio</option>
   <option value="1">2 kilos</option>
-</select>
+  
+</select></div>
+<div>
+  <h1 id="Tostadas">Tostadas</h1>
+
+  <button onclick="quitar15()">Quitar</button>
+  <button onclick="tachar15()">Tachar</button>
+  <button onclick="reset15()">Reset</button>
+
+  <script>
+    function quitar15() {
+      document.getElementById("Tostadas").textContent = "...";
+    }
+
+    function tachar15() {
+      document.getElementById("Tostadas").innerHTML = "<s>Tostadas</s>";
+    }
+
+    function reset15() {
+      document.getElementById("Tostadas").textContent = "Tostadas";
+    }
+  </script>
 </div>
+
+<br>
+
+ <div><font>Leguminosas</font></div>
+
+<div>
+  <h1 id="Arroz">Arroz</h1>
+
+  <button onclick="quitar14()">Quitar</button>
+  <button onclick="tachar14()">Tachar</button>
+  <button onclick="reset14()">Reset</button>
+
+  <script>
+    function quitar14() {
+      document.getElementById("Arroz").textContent = "...";
+    }
+
+    function tachar14() {
+      document.getElementById("Arroz").innerHTML = "<s>Arroz</s>";
+    }
+
+    function reset14() {
+      document.getElementById("Arroz").textContent = "Arroz";
+    }
+  </script>
+  <select name="cantidad" id="cantidad"> 
+  <option value="1" selected>Medio kilo de Arroz</option>
+  <option value="1">1 Kilo</option>
+  <option value="1">1  y medio Kilos</option>
+  <option value="1">2 Kilos</option>
+  </select>
+</div>
+<div>
+  <h1 id="Frijoles">Frijoles</h1>
+
+  <button onclick="quitar13()">Quitar</button>
+  <button onclick="tachar13()">Tachar</button>
+  <button onclick="reset13()">Reset</button>
+
+  <script>
+    function quitar13() {
+      document.getElementById("Frijoles").textContent = "...";
+    }
+
+    function tachar13() {
+      document.getElementById("Frijoles").innerHTML = "<s>Frijoles</s>";
+    }
+
+    function reset13() {
+      document.getElementById("Frijoles").textContent = "Frijoles";
+    }
+  </script>
+
+  <select name="cantidad" id="cantidad"> 
+  <option value="1" selected>Vaso de frijoles</option>
+  <option value="1">Medio kilo</option>
+  </select>
+</div>
+
 
 </aside>
 
@@ -205,6 +285,30 @@ function Reset1(){
   </script> <br>
 <input type = "number" placeholder="Queso en Pesos">
 </div>
+<div>
+  <h1 id="Lechera">Lechera</h1>
+
+  <button onclick="quitar18()">Quitar</button>
+  <button onclick="tachar18()">Tachar</button>
+  <button onclick="reset18()">Reset</button>
+
+  <script>
+    function quitar18() {
+      document.getElementById("Lechera").textContent = "...";
+    }
+
+    function tachar18() {
+      document.getElementById("Lechera").innerHTML = "<s>Lechera</s>";
+    }
+
+    function reset18() {
+      document.getElementById("Lechera").textContent = "Lechera";
+    }
+  </script>
+
+
+</div>
+
 
   <br>
 <div><font>
@@ -398,7 +502,78 @@ Origen Animal
   <option value="1">2 kilos</option>
 </select>
 </div>
+<br>
 
+<div><font>Otros</font></div>
+
+<div>
+  <h1 id="Refresco">Refresco</h1>
+
+  <button onclick="quitar16()">Quitar</button>
+  <button onclick="tachar16()">Tachar</button>
+  <button onclick="reset16()">Reset</button>
+
+  <script>
+    function quitar16() {
+      document.getElementById("Refresco").textContent = "...";
+    }
+
+    function tachar16() {
+      document.getElementById("Refresco").innerHTML = "<s>Refresco</s>";
+    }
+
+    function reset16() {
+      document.getElementById("Refresco").textContent = "Refresco";
+    }
+  </script>
+</div>
+
+<div>
+  <h1 id="Papitas">Papitas</h1>
+
+  <button onclick="quitar17()">Quitar</button>
+  <button onclick="tachar17()">Tachar</button>
+  <button onclick="reset17()">Reset</button>
+
+  <script>
+    function quitar17() {
+      document.getElementById("Papitas").textContent = "...";
+    }
+
+    function tachar17() {
+      document.getElementById("Papitas").innerHTML = "<s>Papitas</s>";
+    }
+
+    function reset17() {
+      document.getElementById("Papitas").textContent = "Papitas";
+    }
+  </script>
+</div>
+
+<div>
+  <h1 id="Canela">Canela</h1>
+
+  <button onclick="quitar19()">Quitar</button>
+  <button onclick="tachar19()">Tachar</button>
+  <button onclick="reset19()">Reset</button>
+
+  <script>
+    function quitar19() {
+      document.getElementById("Canela").textContent = "...";
+    }
+
+    function tachar19() {
+      document.getElementById("Canela").innerHTML = "<s>Canela</s>";
+    }
+
+    function reset19() {
+      document.getElementById("Canela").textContent = "Canela";
+    }
+  </script>
+
+<input type="number" placeholder="Barras">
+
+</div>
 
 </article>
 
