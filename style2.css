@@ -23,3 +23,54 @@ width:100%;
 height:auto;
 display:block;
 }
+
+.calculadora{
+    background-color:black;
+    color:white;
+    width: 350px;
+    max-width: 100%;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    display:grid;
+    grid-template-columns:repeat(4, 1fr);
+    gap: .5rem; 
+}
+
+.pantalla{
+    background-color: yellowgreen;
+    color:darkslategray;
+    padding:10px;
+grid-column: 1 / 5
+}
+
+.btn{
+    background: dimgray;
+    color:white;
+    padding:10px;
+    border-radius: 30px;
+    cursor:pointer;
+}
+
+.btn:hover {
+    background-color:rgb(146, 146, 146);
+}
+
+#igual{
+    grid-row:span 2;
+}
+
+#c{
+    background-color:red;
+    cursor:pointer;
+}
+
+#del{
+    background-color: red;
+    cursor:pointer;
+}
+#c:hover{
+    background-color: rgb(255, 70, 70);
+}
+#del:hover{
+    background-color: rgb(255, 70, 70);
+}
